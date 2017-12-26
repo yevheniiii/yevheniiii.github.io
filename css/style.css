@@ -1,0 +1,45 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+body {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAT/GdHE/gP5jMiCYAGQIpggXAAmiCIAEgQAAE4FBbECyZcAAAAASUVORK5CYII=) #222;
+  position: relative;
+}
+.social-icons {
+    top: 70%;
+    position: relative;
+    z-index: 1;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+.social-icons i {
+    color: white;
+    font-size:2.5em;
+}
+.social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icons ul li {
+    display: inline-block;
+    margin: 0 45px;
+}
+.social-icons ul li a {
+    display: block;
+    text-decoration: none;
+}
+.draw {
+  height: 80%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  position: absolute;
+}
+#canvas {
+    z-index: 0;
+    position: absolute;
+}

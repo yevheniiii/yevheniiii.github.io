@@ -46,57 +46,16 @@ body {
     z-index: 0;
     position: absolute;
 }
-@media only screen and (max-width: 632px) {
+@media screen and (max-width: 632px) {
     .social-icons i {
         height: 70px;
-        font-size: 150%
+        font-size: 180%;
+        margin: auto;
     }
+
     body {
         background-image: url(../andrieiev_small.png);
         background-position: center;
-    }
-    .draw {
-        display: none;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .social-icons i {
-        height: 64px;
-        font-size: 205%
-    }
-    body {
-        background-image: url(../andrieiev_small.png);
-        background-position: center;
-    }
-    .draw {
-        display: none;
-    }
-}
-@media only screen and (max-width: 360px) {
-    .social-icons i {
-        height: 70px;
-        font-size: 150%
-    }
-    body {
-        background-image: url(../andrieiev_small.png);
-        background-position: center;
-        -webkit-background-size: 500px 400px;
-        background-size: 500px 400px;
-        background-repeat: no-repeat;
-    }
-    .draw {
-        display: none;
-    }
-}
-@media only screen and (max-width: 375px) {
-    .social-icons i {
-        height: 70px;
-        font-size: 150%
-    }
-    body {
-        background-image: url(../andrieiev_small.png);
-        background-position: center;
-        -webkit-background-size: 500px 400px;
         background-size: 500px 400px;
         background-repeat: no-repeat;
     }
